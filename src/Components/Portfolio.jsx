@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/workspace_shot.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,10 +31,9 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "Consistency keys 🔑",
+    description:"Article written in collabration on How to Stay Consistent in Coding: The Key to Daily Practice and Problem-Solving Mastery",
+    url: "https://medium.com/@mohitkaushal91/how-to-stay-consistent-in-coding-the-key-to-daily-practice-and-problem-solving-mastery-1fe55f93340",
   },
   {
     title: "Web Development for Beginners",
@@ -61,10 +60,10 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        <div style={{ maxWidth: "30%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "100%", width: "100%", objectFit: "contain" }}
             alt={imageAltText}
           />
         </div>
